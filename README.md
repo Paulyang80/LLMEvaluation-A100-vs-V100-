@@ -7,7 +7,9 @@ The results are here.
 Running the experiment on Google Colab Pro +
 
 ## Model Evaluation
-1. Hellaswag
-2. Truthfulqa_mc
-3. Arc_challenge
-4. HendrycksTest
+https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+We use four LLM benchmarks to evaluate the model.
+1. Hellaswag: acc
+2. Truthfulqa_mc: mc1, mc2
+3. Arc_challenge: acc 
+4. MMLU(HendrycksTest): Average score of all test acc.
