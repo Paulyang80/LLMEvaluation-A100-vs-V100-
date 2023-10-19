@@ -1,0 +1,37 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.517625970922127,
+      "acc_stderr": 0.004986680048438309,
+      "acc_norm": 0.6976697868950408,
+      "acc_norm_stderr": 0.004583289072937726
+    },
+    "arc_challenge": {
+      "acc": 0.40187713310580203,
+      "acc_stderr": 0.014327268614578276,
+      "acc_norm": 0.4283276450511945,
+      "acc_norm_stderr": 0.014460496367599022
+    },
+    "truthfulqa_mc": {
+      "mc1": 0.2876376988984088,
+      "mc1_stderr": 0.015846315101394816,
+      "mc2": 0.44070685562560735,
+      "mc2_stderr": 0.014841712500970494
+    }
+  },
+  "versions": {
+    "hellaswag": 0,
+    "arc_challenge": 0,
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "falcon-7b-instruct",
+    "num_fewshot": 0,
+    "batch_size": 4,
+    "device": "cuda:0",
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 2,
+    "description_dict": null
+  }
+}
